@@ -11,7 +11,7 @@ This code demonstrates the chaining aspect of the Langchain framework, showcasin
 - The `SimpleSequentialChain` is employed to connect the OpenAI and Hugging Face models.
 
 The given instance involves seeking recommendations for the ideal European destination and subsequently detailing the prime historical and tourist attractions in the chosen country. 
-The selection of the country is conducted by the OpenAI LLM, while the Mistral-7B LLM is employed for listing historical sites in the country selected initially.
+The selection of the country is conducted by the OpenAI LLM, while the Mistral-7B LLM is employed for listing historical sites in the country given by the first chain - the OpenAI LLM.
 
 
 ## Instructions:
