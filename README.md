@@ -1,8 +1,8 @@
 # Langchain Framework Example
 
-This code demonstrates the chaining aspect of the Langchain framework, showcasing how two large language models can be seamlessly connected using the SimpleSequentialChain. In this example, a single sequential chain is created, allowing for a single input that generates a single output. The output of the first chain is automatically passed as the input to the second chain.
+This code demonstrates the chaining aspect of the Langchain framework. It showcases how two large language models can be seamlessly connected using SimpleSequentialChain. In this example, a single sequential chain is created, allowing for a single input that generates a single output. The output of the first chain is automatically passed as the input to the second chain.
 
-## Features:
+## Features
 - Utilizes Langchain modules for language model management.
 - Incorporates two large language models: OpenAI and Mistral-7B from Hugging Face.
 - Environment variables are handled using the `dotenv` library for enhanced security.
@@ -14,7 +14,7 @@ The given instance involves seeking recommendations for the ideal European desti
 The selection of the country is conducted by the OpenAI LLM, while the Mistral-7B LLM is employed for listing historical sites in the country given by the first chain - the OpenAI LLM.
 
 
-## Instructions:
+## Instructions
 1. Ensure you have the necessary API keys set up for OpenAI and Hugging Face Hub by setting the corresponding environment variables.
 2. Run the code and observe the chained behavior of the two language models.
 
